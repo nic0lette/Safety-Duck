@@ -1,0 +1,6 @@
+content   safetyduck                 chrome/content/
+skin      safetyduck   classic/1.0   chrome/skin/
+locale    safetyduck   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://safetyduck/content/ff-overlay.xul
