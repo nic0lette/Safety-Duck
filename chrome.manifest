@@ -1,4 +1,4 @@
-content   safetyduck                 chrome/content/
+content   safetyduck                 chrome/content/		contentaccessible=yes
 skin      safetyduck   classic/1.0   chrome/skin/
 locale    safetyduck   en-US         chrome/locale/en-US/
 

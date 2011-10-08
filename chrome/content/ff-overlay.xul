@@ -15,7 +15,7 @@
           label="&safetyduckContext.label;"
           accesskey="&safetyduckContext.accesskey;">
       <menupopup id="safetyduck-popup">
-      	<menuitem label="&safetyduckContext.label.personal;" oncommand="safetyduck.onMenuItemCommand('personal')"/>
+      	<menuitem label="&safetyduckContext.label.personal;" type="checkbox" oncommand="safetyduck.onMenuItemCommand('personal')"/>
       </menupopup>
     </menu>
   </popup>
