@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="chrome://safetyduck/skin/overlay.css" type="text/css"?>
+
 <!DOCTYPE overlay SYSTEM "chrome://safetyduck/locale/overlay.dtd">
 <overlay id="safetyduck-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script src="overlay.js"/>
-  <script src="ff-overlay.js"/>
-
+  <script src="overlay.js" type="application/javascript;version=1.8" />
+  <script src="ff-overlay.js" type="application/javascript;version=1.8" />
+  
   <stringbundleset id="stringbundleset">
     <stringbundle id="safetyduck-strings" src="chrome://safetyduck/locale/overlay.properties"/>
   </stringbundleset>
 
   <popup id="contentAreaContextMenu">
     <menu id="safetyduck-menu"
-          insertafter="context-stop"
+          insertafter="context-viewimageinfo"
           label="&safetyduckContext.label;"
           accesskey="&safetyduckContext.accesskey;">
       <menupopup id="safetyduck-popup">
-      	<menuitem label="&safetyduckContext.label.personal;" type="checkbox" oncommand="safetyduck.onMenuItemCommand('personal')"/>
       </menupopup>
     </menu>
   </popup>
