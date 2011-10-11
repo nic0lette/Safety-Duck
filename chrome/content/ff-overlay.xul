@@ -3,24 +3,21 @@
 
 <!DOCTYPE overlay SYSTEM "chrome://safetyduck/locale/overlay.dtd">
 <overlay id="safetyduck-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script src="overlay.js" type="application/javascript;version=1.8" />
-  <script src="ff-overlay.js" type="application/javascript;version=1.8" />
-  
-  <stringbundleset id="stringbundleset">
-    <stringbundle id="safetyduck-strings" src="chrome://safetyduck/locale/overlay.properties"/>
-  </stringbundleset>
-
-  <popup id="contentAreaContextMenu">
-    <menu id="safetyduck-menu"
-          insertafter="context-viewimageinfo"
-          label="&safetyduckContext.label;"
-          accesskey="&safetyduckContext.accesskey;">
-      <menupopup id="safetyduck-popup">
-      </menupopup>
-    </menu>
-  </popup>
-
-
-
+	<script src="overlay.js" type="application/javascript;version=1.8" />
+	<script src="ff-overlay.js" type="application/javascript;version=1.8" />
+	  
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="safetyduck-strings" src="chrome://safetyduck/locale/overlay.properties"/>
+	</stringbundleset>
+	
+	<popup id="contentAreaContextMenu">
+		<menu id="safetyduck-menu"
+				insertafter="context-viewimageinfo"
+				label="&safetyduckContext.label;"
+				accesskey="&safetyduckContext.accesskey;">
+			<menupopup id="safetyduck-popup">
+			</menupopup>
+		</menu>
+	</popup>
 
 </overlay>
